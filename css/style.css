@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: cover;
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/03/Netflix-1200x900-1.jpg);
+    background-repeat:no-repeat ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::after {
+    content: '';
+    background-color: rgba(59, 50, 50, 0.5);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo img {
+    height: 150px;
+    width: 200px;
+
+}
+
+.header {
+
+position: relative;
+z-index: 10;
+
+}
+
+.login-body {
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    background-color:  rgb(36, 33, 33);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    margin-top: -30px;
+   
+}
+
+.login-body h2 {
+    font-size: 32px;
+    color: rgb(245, 240, 240);
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.login-body input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login-body input:hover {
+    background-color: #444;
+}
+
+.input-box {
+    margin-bottom: 25px;
+}
+
+.login-body button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.login-body button:hover {
+    background-color: #f93321;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.support input {
+    width: 15px;
+    height: 15px;
+
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.login-facebook {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+
+}
+
+.login-facebook span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.login-facebook span a {
+    text-decoration: none;
+    color: #737373;
+}
+.login-facebook span a:hover {
+    font-size: 16px;
+    color: rgba(221, 218, 218, 0.904);
+}
+
+.sign-up {
+    color: #737373;
+    font-size: 16px;
+  text-align: center
+}
+
+.sign-up a {
+    color: rgb(196, 194, 194);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+    color: rgb(254, 252, 252);
+    font-size: 17px;
+}
+
+.terms {
+    color: #737373;
+    font-size: 12px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #fa1707;
+}
+
+.terms a:hover {
+   
+    color: #f74c54;
+    font-size:medium;
+}
